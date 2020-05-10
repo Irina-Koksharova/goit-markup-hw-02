@@ -1,0 +1,147 @@
+:root {
+  --primary-grey-color: #757575;
+  --primary-white-color: #ffffff;
+  --secondary-black-color: #212121;
+  --secondary-dakrgrey-color: rgba(47, 48, 58, 0.8);
+  --secondary-lightgrey-color: #f5f4fa;
+  --secondary-f-lightgrey-color: rgba(255, 255, 255, 0.6);
+  --secondary-flightgrey-color: rgba(255, 255, 255, 0.4);
+  --accent-blue-color: #2196f3;
+}
+body {
+  color: var(--primary-grey-color);
+  background: var(--primary-white-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Шапка сайта */
+.logo-parth-one {
+  color: var(--accent-blue-color);
+}
+.logo-parth-two {
+  color: var(--secondary-black-color);
+}
+.page {
+  color: var(--secondary-black-color);
+}
+.page:hover,
+.page:focus {
+  color: var(--accent-blue-color);
+}
+.page-current {
+  color: var(--accent-blue-color);
+}
+.contact {
+  color: var(--primary-grey-color);
+}
+.contact:hover {
+  color: var(--accent-blue-color);
+}
+
+/* Герой */
+.hero-title {
+  color: var(--primary-white-color);
+  background: var(--secondary-dakrgrey-color);
+}
+.hero-button {
+  color: var(--primary-white-color);
+  background: var(--accent-blue-color);
+}
+
+/* Наши преимущества */
+.benefits-title {
+  color: var(--primary-white-color);
+}
+.benefits-icon {
+  background: var(--secondary-lightgrey-color);
+}
+.benefits-icon:hover {
+  color: var(--accent-blue-color);
+}
+.benefits-subtitle {
+  color: var(--secondary-black-color);
+}
+
+/* Чем мы занимаемся */
+.directions-title {
+  color: var(--secondary-black-color);
+}
+.directions-subtitle {
+  color: var(--primary-white-color);
+  background: var(--secondary-dakrgrey-color);
+}
+
+/* Наша команда */
+.team {
+  background: var(--secondary-lightgrey-color);
+}
+.team-title {
+  color: var(--secondary-black-color);
+}
+.team-subtitle {
+  color: var(--secondary-black-color);
+}
+.social-link {
+  color: var(--primary-grey-color);
+}
+.social-link:hover {
+  color: var(--accent-blue-color);
+}
+
+/* Наши клиенты */
+.clients {
+  color: var(--secondary-black-color);
+}
+
+/* Футер */
+.footer {
+  color: var(--primary-white-color);
+  background: var(--secondary-dakrgrey-color);
+}
+.logo-parth-three {
+  color: var(--primary-white-color);
+}
+.adress-link {
+  color: var(--secondary-f-lightgrey-color);
+}
+.footer .social-link {
+  color: var(--primary-white-color);
+}
+.footer .social-link:hover {
+  color: var(--accent-blue-color);
+}
+.autor {
+  color: var(--secondary-flightgrey-color);
+}
+/* Наши работы */
+.examples {
+  color: var(--primary-white-color);
+}
+.button {
+  color: var(--secondary-black-color);
+  background: var(--secondary-lightgrey-color);
+}
+.button:hover {
+  color: var(--primary-white-color);
+  background: var(--accent-blue-color);
+}
+.button:focus {
+  color: var(--primary-white-color);
+  background: var(--accent-blue-color);
+}
+.examples-text {
+  color: var(--primary-white-color);
+}
+.examples-title {
+  color: var(--secondary-black-color);
+}
+.examples-image:hover {
+  background: var(--accent-blue-color);
+}
