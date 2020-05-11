@@ -11,6 +11,8 @@
 body {
   color: var(--primary-grey-color);
   background: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 a {
@@ -22,11 +24,23 @@ li {
 }
 
 /* Шапка сайта */
+.logo-header {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
 .logo-parth-one {
   color: var(--accent-blue-color);
 }
 .logo-parth-two {
   color: var(--secondary-black-color);
+}
+.logo-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .page {
   color: var(--secondary-black-color);
@@ -49,33 +63,51 @@ li {
 .hero-title {
   color: var(--primary-white-color);
   background: var(--secondary-dakrgrey-color);
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   color: var(--primary-white-color);
   background: var(--accent-blue-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  letter-spacing: 0.06em;
 }
 
 /* Наши преимущества */
 .benefits-title {
   color: var(--primary-white-color);
 }
-.benefits-icon {
-  background: var(--secondary-lightgrey-color);
-}
-.benefits-icon:hover {
-  color: var(--accent-blue-color);
-}
 .benefits-subtitle {
   color: var(--secondary-black-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Чем мы занимаемся */
 .directions-title {
   color: var(--secondary-black-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 .directions-subtitle {
   color: var(--primary-white-color);
   background: var(--secondary-dakrgrey-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Наша команда */
@@ -84,9 +116,17 @@ li {
 }
 .team-title {
   color: var(--secondary-black-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 .team-subtitle {
   color: var(--secondary-black-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 .social-link {
   color: var(--primary-grey-color);
@@ -94,10 +134,54 @@ li {
 .social-link:hover {
   color: var(--accent-blue-color);
 }
-
+.team-text {
+  text-align: center;
+}
 /* Наши клиенты */
 .clients {
   color: var(--secondary-black-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+/* Наши работы */
+.examples {
+  color: var(--primary-white-color);
+}
+.button {
+  color: var(--secondary-black-color);
+  background: var(--secondary-lightgrey-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+.button:hover {
+  color: var(--primary-white-color);
+  background: var(--accent-blue-color);
+}
+.button:focus {
+  color: var(--primary-white-color);
+  background: var(--accent-blue-color);
+}
+.examples-text {
+  color: var(--primary-white-color);
+  background: var(--accent-blue-color);
+  font-size: 18px;
+  line-height: 1.56;
+}
+.examples-title {
+  color: var(--secondary-black-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.example-button {
+  color: var(--primary-grey-color);
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 /* Футер */
@@ -105,8 +189,26 @@ li {
   color: var(--primary-white-color);
   background: var(--secondary-dakrgrey-color);
 }
+.adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  text-decoration: none;
+}
 .logo-parth-three {
   color: var(--primary-white-color);
+}
+.invoke {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .adress-link {
   color: var(--secondary-f-lightgrey-color);
@@ -119,29 +221,7 @@ li {
 }
 .autor {
   color: var(--secondary-flightgrey-color);
-}
-/* Наши работы */
-.examples {
-  color: var(--primary-white-color);
-}
-.button {
-  color: var(--secondary-black-color);
-  background: var(--secondary-lightgrey-color);
-}
-.button:hover {
-  color: var(--primary-white-color);
-  background: var(--accent-blue-color);
-}
-.button:focus {
-  color: var(--primary-white-color);
-  background: var(--accent-blue-color);
-}
-.examples-text {
-  color: var(--primary-white-color);
-}
-.examples-title {
-  color: var(--secondary-black-color);
-}
-.examples-image:hover {
-  background: var(--accent-blue-color);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
